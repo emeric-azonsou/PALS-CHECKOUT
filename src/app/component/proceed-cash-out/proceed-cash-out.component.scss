@@ -8,12 +8,13 @@
     border-style: dashed;
     border-color: black;
     border-radius: 10px;
+    padding-bottom: -10rem;
   }
   .bi-x-circle {
     position: relative;
     z-index: 1;
     top: 0.5px;
-    left: 16.5rem;
+    left: 17rem;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -41,7 +42,8 @@
     }
   }
   form {
-    margin-top: 40px;
+    position: relative;
+    top: 40px;
     select {
       border-style: dashed;
       font-weight: 500;
@@ -57,7 +59,7 @@
   }
 
   .btn {
-    margin-top: -10px;
+    top: 10px;
     background-color: #101010;
     color: white;
     font-weight: 400;
@@ -66,9 +68,14 @@
 }
 .bi-arrow-right-short {
   position: relative;
-  bottom: 1.7rem;
+  // bottom: 1.7rem;
   font-size: 20px;
+  top: 15px;
   color: white;
   left: 12rem;
   font-weight: bold;
+}
+.d-grid {
+  position: relative;
+  top: 43px;
 }

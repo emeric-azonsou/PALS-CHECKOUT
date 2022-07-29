@@ -18,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AllowCashOutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

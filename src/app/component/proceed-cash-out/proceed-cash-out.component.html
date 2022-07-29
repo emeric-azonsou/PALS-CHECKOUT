@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div id="card">
   <span> <i class="bi bi-x-circle"></i></span>
-  <div class="card border-success mb-3" style="max-width: 16.5rem">
+  <div class="card border-success mb-3" style="max-width: 17rem">
     <div class="card-header bg-transparent border-dashed">
       <strong>$1,820.<span>00</span> </strong>
     </div>
@@ -27,7 +27,9 @@
             <div class="mb-3 form-check"></div>
           </form>
           <div class="d-grid gap-2">
-            <button class="btn" type="button">Proceed</button>
+            <button (click)="onProceedCashOut()" class="btn" type="button">
+              Proceed
+            </button>
           </div>
           <span><i class="bi bi-arrow-right-short"></i></span>
         </div>

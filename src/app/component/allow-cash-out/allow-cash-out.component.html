@@ -9,9 +9,17 @@
     <div class="card-body">
       <h5 class="card-title">
         <div class="container">
-          <p>Please dial *170# to allowed cash out</p>
+          <p *ngIf="setDisplayText">Please dial *170# to allowed cash out</p>
+          <div *ngIf="setDisplayLoader" class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Loading</span>
+          </div>
           <div class="d-grid gap-2">
-            <button class="btn" type="button">I have allowed cash out</button>
+            <button class="btn" (click)="onAllowCashout()" type="button">
+              I have allowed cash out
+            </button>
           </div>
           <span><i class="bi bi-arrow-right-short"></i></span>
         </div>
