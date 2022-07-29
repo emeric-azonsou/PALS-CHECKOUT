@@ -1,0 +1,74 @@
+#card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8rem;
+
+  .card {
+    border-style: dashed;
+    border-color: black;
+    border-radius: 10px;
+  }
+  .bi-x-circle {
+    position: relative;
+    z-index: 1;
+    top: 0.5px;
+    left: 16.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .card-header {
+    background-color: white;
+    border-bottom-style: dashed;
+    border-color: black;
+    padding-bottom: 2rem;
+
+    strong {
+      display: flex;
+      justify-content: center;
+      color: #002b43;
+      font-weight: bold;
+      position: relative;
+      font-size: 30px;
+      top: 10px;
+
+      span {
+        position: relative;
+        top: 4px;
+        font-size: 20px;
+      }
+    }
+  }
+  form {
+    margin-top: 40px;
+    select {
+      border-style: dashed;
+      font-weight: 500;
+      background-color: #e9ecef;
+      text-align: center;
+      border-radius: 8px;
+    }
+    input {
+      margin-top: 20px;
+      border-radius: 8px;
+      border-style: dashed;
+    }
+  }
+
+  .btn {
+    margin-top: -10px;
+    background-color: #101010;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+}
+.bi-arrow-right-short {
+  position: relative;
+  bottom: 1.7rem;
+  font-size: 20px;
+  color: white;
+  left: 12rem;
+  font-weight: bold;
+}

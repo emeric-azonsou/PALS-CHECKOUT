@@ -1,9 +1,9 @@
 .header {
   display: flex;
-  //  height: 100vh;
-  display: flex;
   position: relative;
-  top: 6rem;
+  top: 7.5rem;
+  right: 2.5rem;
+
   justify-content: center;
 
   img {
@@ -12,6 +12,6 @@
   }
   span {
     color: #000000;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
