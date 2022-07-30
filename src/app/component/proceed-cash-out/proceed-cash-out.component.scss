@@ -11,12 +11,13 @@
     padding-bottom: 5.6rem;
   }
   .bi-x-circle {
+    font-family: "Oswald", sans-serif;
     position: relative;
     z-index: 1;
     top: 0.5px;
     left: 18rem;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 900;
     cursor: pointer;
   }
   .card-header {
@@ -26,6 +27,7 @@
     padding-bottom: 2rem;
 
     strong {
+      font-family: "Oswald", sans-serif;
       display: flex;
       justify-content: center;
       color: #002b43;
@@ -46,7 +48,7 @@
     top: 80px;
     select {
       border-style: dashed;
-      font-weight: 500;
+      font-weight: 400;
       background-color: #e9ecef;
       text-align: center;
       border-radius: 8px;
@@ -80,4 +82,29 @@
 .d-grid {
   position: relative;
   top: 43px;
+}
+
+@media (max-width: 576px) {
+  .bi-x-circle {
+    display: none;
+  }
+  .list-group {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    .mobile-cancel {
+      display: flex;
+      text-align: center;
+      // width: 10rem;
+      background-color: transparent;
+      border-color: #f31853;
+      color: #f31853;
+      border-style: dashed;
+    }
+  }
+}
+@media (min-width: 576.1px) {
+  .list-group {
+    display: none;
+  }
 }
