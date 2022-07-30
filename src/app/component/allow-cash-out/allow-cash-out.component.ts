@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-allow-cash-out',
@@ -9,12 +10,15 @@ export class AllowCashOutComponent implements OnInit {
   setDisplayLoader = false;
   setDisplayText = true;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
 
   onAllowCashout() {
     this.setDisplayLoader = true;
     this.setDisplayText = false;
+    setTimeout(() => {
+      this.router.navigate(['transaction-succesful']);
+    }, 3000);
   }
 }
