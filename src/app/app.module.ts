@@ -9,6 +9,7 @@ import { ProceedCashOutComponent } from './component/proceed-cash-out/proceed-ca
 import { AllowCashOutComponent } from './component/allow-cash-out/allow-cash-out.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SuccessfulTransactionComponent } from './component/successful-transaction/successful-transaction.component';
+import { UnsuccesfullTransactionComponent } from './component/unsuccesfull-transaction/unsuccesfull-transaction.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SuccessfulTransactionComponent } from './component/successful-transacti
     ProceedCashOutComponent,
     AllowCashOutComponent,
     SuccessfulTransactionComponent,
+    UnsuccesfullTransactionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
 
