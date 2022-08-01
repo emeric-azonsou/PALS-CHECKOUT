@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 6rem;
+  top: 4rem;
 
   .card {
     border-style: dashed;
@@ -11,11 +11,11 @@
     padding-bottom: 5.6rem;
   }
   .bi-x-circle {
-    font-family: "Oswald", sans-serif;
+    font-family: "Poppins";
     position: relative;
     z-index: 1;
-    top: 0.5px;
-    left: 18rem;
+    bottom: 0.5px;
+    left: 18.1rem;
     font-size: 25px;
     font-weight: 900;
     cursor: pointer;
@@ -27,7 +27,7 @@
     padding-bottom: 2rem;
 
     strong {
-      font-family: "Oswald", sans-serif;
+      font-family: "Poppins";
       display: flex;
       justify-content: center;
       color: #002b43;
@@ -38,7 +38,7 @@
 
       span {
         position: relative;
-        top: 4px;
+        top: 3.5px;
         font-size: 20px;
       }
     }
@@ -47,11 +47,12 @@
     position: relative;
     top: 80px;
     select {
+      font-family: "Poppins";
       border-style: dashed;
-      font-weight: 400;
       background-color: #e9ecef;
       text-align: center;
       border-radius: 8px;
+      font-size: 15px;
     }
     input {
       margin-top: 20px;
@@ -59,13 +60,14 @@
       border-style: dashed;
     }
   }
-
   .btn {
+    font-family: "Poppins";
     position: relative;
     top: 5.4rem;
     background-color: #101010;
     color: white;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
     border-radius: 10px;
   }
 }
@@ -74,37 +76,43 @@
   position: relative;
   // bottom: 1.7rem;
   font-size: 20px;
-  top: 100px;
+  top: 103px;
   color: white;
-  left: 11rem;
+  left: 12.7rem;
   font-weight: bold;
 }
+
+input::placeholder {
+  text-align: center;
+  line-height: 50px;
+}
+
 .d-grid {
   position: relative;
   top: 43px;
 }
 
-@media (max-width: 576px) {
-  .bi-x-circle {
-    display: none;
-  }
-  .list-group {
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    .mobile-cancel {
-      display: flex;
-      text-align: center;
-      // width: 10rem;
-      background-color: transparent;
-      border-color: #f31853;
-      color: #f31853;
-      border-style: dashed;
-    }
-  }
-}
-@media (min-width: 576.1px) {
-  .list-group {
-    display: none;
-  }
-}
+// @media (max-width: 576px) {
+//   .bi-x-circle {
+//     display: none;
+//   }
+//   .list-group {
+//     display: flex;
+//     justify-content: end;
+//     align-items: flex-end;
+//     .mobile-cancel {
+//       display: flex;
+//       text-align: center;
+//       // width: 10rem;
+//       background-color: transparent;
+//       border-color: #f31853;
+//       color: #f31853;
+//       border-style: dashed;
+//     }
+//   }
+// }
+// @media (min-width: 576.1px) {
+//   .list-group {
+//     display: none;
+//   }
+// }

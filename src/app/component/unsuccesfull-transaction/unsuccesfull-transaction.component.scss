@@ -1,8 +1,33 @@
+// header
+
+.header {
+  display: flex;
+  position: relative;
+  top: 4rem;
+  right: 2.5rem;
+  justify-content: center;
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 40px;
+  }
+  span {
+    position: relative;
+    color: #000000;
+    font-weight: 400;
+    right: 2.5rem;
+  }
+}
+
+// end header
+
 #card {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 6rem;
+  top: 4rem;
 
   .card {
     border-style: dashed;
@@ -61,12 +86,13 @@
   }
 
   .btn {
+    font-family: "Poppins";
     position: relative;
     top: 225px;
     // margin-top: 50px;
     background-color: #f31853;
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     border-radius: 10px;
   }
 }

@@ -1,14 +1,15 @@
 .footer {
   display: flex;
   position: relative;
-  top: 5.5rem;
+  top: 2.5rem;
   margin-left: 40px;
   justify-content: center;
 
   img {
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right: 3px;
   }
   span {
     color: #b8b8b8;
