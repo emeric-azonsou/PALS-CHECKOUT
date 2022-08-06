@@ -2,20 +2,21 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 4rem;
+  top: 2rem;
+  right: 8px;
 
   .card {
     border-style: dashed;
     border-color: black;
     border-radius: 10px;
-    padding-bottom: 5.6rem;
+    padding-bottom: 4rem;
   }
   .bi-x-circle {
     font-family: "Poppins";
     position: relative;
     z-index: 1;
-    bottom: 0.5px;
-    left: 18.1rem;
+    bottom: 0.6px;
+    left: 19.07rem;
     font-size: 25px;
     font-weight: 900;
     cursor: pointer;
@@ -24,28 +25,28 @@
     background-color: white;
     border-bottom-style: dashed;
     border-color: black;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 
     strong {
-      font-family: "Poppins";
+      font-family: "Oswald", sans-serif;
       display: flex;
       justify-content: center;
       color: #002b43;
-      font-weight: bold;
+      font-weight: 900;
       position: relative;
-      font-size: 30px;
-      top: 10px;
+      font-size: 48px;
+      top: 26px;
 
       span {
+        font-size: 25px;
         position: relative;
-        top: 3.5px;
-        font-size: 20px;
+        top: 10px;
       }
     }
   }
   form {
     position: relative;
-    top: 80px;
+    top: 65px;
     select {
       font-family: "Poppins";
       border-style: dashed;
@@ -63,22 +64,23 @@
   .btn {
     font-family: "Poppins";
     position: relative;
-    top: 5.4rem;
+    top: 4.3rem;
     background-color: #101010;
     color: white;
-    font-size: 15px;
     font-weight: 500;
     border-radius: 10px;
+    font-size: medium;
+    width: 17rem;
+    right: 10px;
   }
 }
 
 .bi-arrow-right-short {
   position: relative;
-  // bottom: 1.7rem;
-  font-size: 20px;
-  top: 103px;
+  top: 76px;
+  font-size: 30px;
   color: white;
-  left: 12.7rem;
+  left: 14rem;
   font-weight: bold;
 }
 

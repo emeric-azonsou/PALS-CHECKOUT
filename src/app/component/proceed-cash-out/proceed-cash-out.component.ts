@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,11 +8,19 @@ import { Router } from '@angular/router';
   styleUrls: ['./proceed-cash-out.component.scss'],
 })
 export class ProceedCashOutComponent implements OnInit {
+  form: FormGroup;
   constructor(private router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.form = new FormGroup({
+      network: new FormControl(null),
+    });
+  }
 
   onProceedCashOut() {
     this.router.navigate(['allow']);
+    //   this.form.value.network === 'aireteltigo'
+    //     ? this.router.navigate(['airetel'])
+    //     : this.router.navigate(['vodaphone']);
   }
 }
