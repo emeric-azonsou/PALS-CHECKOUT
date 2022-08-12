@@ -12,7 +12,9 @@ import { UnsuccesfullTransactionComponent } from './component/unsuccesfull-trans
 import { AirteltigoViewComponent } from './component/airteltigo-view/airteltigo-view.component';
 import { VodaphoneViewComponent } from './component/vodaphone-view/vodaphone-view.component';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { MtnViewComponent } from './component/mtn-view/mtn-view.component';
+import { PalLogoComponent } from './common/pal-logo/pal-logo.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     UnsuccesfullTransactionComponent,
     AirteltigoViewComponent,
     VodaphoneViewComponent,
+    MtnViewComponent,
+    PalLogoComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
   ],
 
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

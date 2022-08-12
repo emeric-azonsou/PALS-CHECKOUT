@@ -16,7 +16,7 @@
     position: relative;
     z-index: 1;
     bottom: 0.6px;
-    left: 19.07rem;
+    left: 20rem;
     font-size: 25px;
     font-weight: 900;
     cursor: pointer;
@@ -67,26 +67,27 @@
     top: 4.3rem;
     background-color: #101010;
     color: white;
-    font-weight: 500;
+    font-weight: bold;
     border-radius: 10px;
-    font-size: medium;
-    width: 17rem;
-    right: 10px;
+    font-size: 10px;
+    width: 16.5rem;
+    left: 2px;
   }
 }
 
 .bi-arrow-right-short {
   position: relative;
-  top: 76px;
-  font-size: 30px;
+  top: 83px;
+  font-size: 25px;
   color: white;
-  left: 14rem;
+  left: 14.4rem;
   font-weight: bold;
 }
 
 input::placeholder {
   text-align: center;
   line-height: 50px;
+  opacity: 0.5;
 }
 
 .d-grid {

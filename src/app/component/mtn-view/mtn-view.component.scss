@@ -3,7 +3,7 @@
 .header {
   display: flex;
   position: relative;
-  top: 1.3rem;
+  top: 1.4rem;
   right: 4.3rem;
   justify-content: center;
 
@@ -30,6 +30,7 @@
   justify-content: center;
   position: relative;
   top: 1.5rem;
+  // right: 100px;
 
   .card {
     border-style: dashed;
@@ -90,7 +91,7 @@
   .btn {
     font-family: "Poppins";
     position: relative;
-    bottom: 3.7rem;
+    bottom: 17px;
     background-color: #101010;
     color: white;
     font-weight: bold;
@@ -103,7 +104,7 @@
 
 .bi-arrow-right-short {
   position: relative;
-  bottom: 5.6rem;
+  bottom: 45px;
   font-size: 30px;
   color: white;
   left: 15.8rem;
@@ -111,7 +112,8 @@
 }
 .stepper {
   position: relative;
-  bottom: 40px;
+  bottom: 25px;
+  left: 88px;
 
   .rounded-circle {
     width: 1rem;
@@ -162,6 +164,7 @@
 .list-group {
   position: relative;
   left: 11px;
+  top: 42px;
   .list-group-item {
     position: relative;
     bottom: 2.5rem;
@@ -178,7 +181,7 @@
   color: #f31853;
   font-size: 2rem;
   position: relative;
-  bottom: 3.1rem;
+  bottom: 8px;
   left: 5rem;
   width: 0;
   height: 0;

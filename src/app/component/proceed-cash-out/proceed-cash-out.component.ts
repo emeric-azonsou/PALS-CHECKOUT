@@ -11,16 +11,9 @@ export class ProceedCashOutComponent implements OnInit {
   form: FormGroup;
   constructor(private router: Router) {}
 
-  ngOnInit(): void {
-    this.form = new FormGroup({
-      network: new FormControl(null),
-    });
-  }
+  ngOnInit(): void {}
 
   onProceedCashOut() {
     this.router.navigate(['allow']);
-    //   this.form.value.network === 'aireteltigo'
-    //     ? this.router.navigate(['airetel'])
-    //     : this.router.navigate(['vodaphone']);
   }
 }
